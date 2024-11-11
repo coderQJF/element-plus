@@ -55,8 +55,8 @@ const arraySpanMethod = ({
   if (rowIndex % 2 === 0) {
     if (columnIndex === 0) {
       return [1, 2]
-    } else if (columnIndex === 1) {
-      return [0, 0]
+    } else if (columnIndex === 2) {
+      return [1, 2]
     }
   }
 }
